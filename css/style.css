@@ -56,7 +56,6 @@ li {
 
 .nav {
     text-align: center;
-    border: 2px black;
     border-style: none dashed none dashed;
 }
 
@@ -81,31 +80,40 @@ li {
 .container_sm {
     max-width: 900px;
     margin: 0 auto;
-
 }
 
 .col_sm {
     background-color: palevioletred;
-    border: 1px dashed black;
     width: 100%;
-    height: 300px;
 }
 
-.col-70-bg-dblue {
+.col-70 {
     width: 70%;
+}
+
+.bg-dblue {
     background-color: dodgerblue;
-    border: 1px dashed black;
-    height: 300px;
 }
 
 
-.col-30-bg-pink {
+.col-30 {
     width: 30%;
-    background-color: pink;
-    border: 1px dashed black;
-    height: 300px;
 }
+
+.bg-pink {
+    background-color: pink;
+}
+
 
 .bg-gray {
     background-color: lightgray;
+}
+
+.border-dsh {
+    border: 1px dashed black;
+    height: 300px;
+}
+
+.borderzeroleft {
+    border-left: none;
 }
