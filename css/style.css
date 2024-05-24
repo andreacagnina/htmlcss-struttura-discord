@@ -15,7 +15,8 @@ header {
     padding: 10px 0;
 }
 
-.container_top {
+.container_top,
+.container_lg {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -88,4 +89,23 @@ li {
     border: 1px dashed black;
     width: 100%;
     height: 300px;
+}
+
+.col-70-bg-dblue {
+    width: 70%;
+    background-color: dodgerblue;
+    border: 1px dashed black;
+    height: 300px;
+}
+
+
+.col-30-bg-pink {
+    width: 30%;
+    background-color: pink;
+    border: 1px dashed black;
+    height: 300px;
+}
+
+.bg-gray {
+    background-color: lightgray;
 }
