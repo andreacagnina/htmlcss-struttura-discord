@@ -82,9 +82,12 @@ li {
     margin: 0 auto;
 }
 
-.col_sm {
-    background-color: palevioletred;
+.col {
     width: 100%;
+}
+
+.bg-violet {
+    background-color: palevioletred;
 }
 
 .col-70 {
@@ -109,11 +112,24 @@ li {
     background-color: lightgray;
 }
 
-.border-dsh {
+
+.border_dsh {
     border: 1px dashed black;
+}
+
+.hgt-300 {
     height: 300px;
 }
 
 .borderzeroleft {
     border-left: none;
+}
+
+.bg-green {
+    background-color: green;
+
+}
+
+.hgt-600 {
+    height: 600px;
 }
