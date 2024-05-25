@@ -18,12 +18,11 @@ body {
     margin: 0 auto;
 }
 
+
 .text-sx,
 .text-dx,
 .nav {
     padding: 10px;
-    background-color: #dba434;
-    border: 1px dashed black;
 }
 
 .row {
@@ -50,9 +49,12 @@ header {
 
 /* H. ALLINEAMENTI E STILI */
 
+.bg-orange {
+    background-color: #dba434;
+}
+
 .text-sx {
     text-align: left;
-
 }
 
 .text-dx {
@@ -71,9 +73,7 @@ li {
 
 .nav {
     text-align: center;
-    border-style: none dashed none dashed;
 }
-
 
 /* STRUTTURA MAIN */
 
@@ -148,7 +148,6 @@ li {
     border-left: none;
 }
 
-
 /* STRUTTURA FOOTER */
 
 #grow div {
@@ -161,12 +160,7 @@ li {
 
 .flex {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-}
-
-.inline-block {
-    display: inline-block;
 }
 
 /* D. FOOTER */
@@ -197,11 +191,12 @@ li {
     background-color: #80ffd7;
 }
 
+
+/* F. ALLINEAMENTI E STILI */
+
 .pd-10-30 {
     padding: 10px 0 30px 0;
 }
-
-/* F. ALLINEAMENTI E STILI */
 
 .pd-5 {
     padding: 5px;
@@ -218,4 +213,8 @@ li {
 hr {
     margin: 30px 0px;
     border-bottom: 1px solid #b4b4b3;
+}
+
+.s-14 {
+    font-size: 14px;
 }
