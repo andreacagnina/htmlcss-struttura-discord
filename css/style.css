@@ -22,7 +22,7 @@ body {
 .text-dx,
 .nav {
     padding: 10px;
-    background-color: orange;
+    background-color: #dba434;
     border: 1px dashed black;
 }
 
@@ -34,7 +34,7 @@ body {
 /* STRUTTURA HEADER */
 
 header {
-    background-color: darkturquoise;
+    background-color: #add8e5;
     padding: 10px 0;
 }
 
@@ -107,27 +107,31 @@ li {
 /* M. COLORI */
 
 .bg-blue {
-    background-color: darkblue;
+    background-color: #000c87;
 }
 
 .bg-violet {
-    background-color: palevioletred;
+    background-color: #ed84ea;
 }
 
 .bg-dblue {
-    background-color: dodgerblue;
+    background-color: #0f93fb;
+}
+
+.bg-white {
+    background-color: #ffffff;
 }
 
 .bg-pink {
-    background-color: pink;
+    background-color: #ffc0ca;
 }
 
 .bg-gray {
-    background-color: lightgray;
+    background-color: #d3d3d3;
 }
 
 .bg-green {
-    background-color: green;
+    background-color: #268a2f;
 }
 
 /* ALLINEAMENTI E STILI */
@@ -174,19 +178,23 @@ li {
 /* F. COLORI */
 
 .bg-black {
-    background-color: rgba(0, 0, 0, 0.801);
+    background-color: #23272a;
 }
 
 .bg-turquoise {
-    background-color: turquoise;
+    background-color: #21b2aa;
 }
 
 .bg-salmon {
-    background-color: darksalmon;
+    background-color: #f08080;
+}
+
+.bg-pig {
+    background-color: #ffb6c0;
 }
 
 .bg-vert {
-    background-color: aquamarine;
+    background-color: #80ffd7;
 }
 
 .pd-10-30 {
@@ -209,5 +217,5 @@ li {
 
 hr {
     margin: 30px 0px;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid #b4b4b3;
 }
