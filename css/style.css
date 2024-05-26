@@ -18,7 +18,6 @@ body {
     margin: 0 auto;
 }
 
-
 .text-sx,
 .text-dx,
 .nav {
@@ -32,11 +31,6 @@ body {
 
 /* STRUTTURA HEADER */
 
-header {
-    background-color: #add8e5;
-    padding: 10px 0;
-}
-
 /* H. DIMENSIONI */
 
 .col-20 {
@@ -47,10 +41,20 @@ header {
     width: 60%;
 }
 
-/* H. ALLINEAMENTI E STILI */
+/* H. COLORI */
+
+.bg-azure {
+    background-color: #add8e5;
+}
 
 .bg-orange {
     background-color: #dba434;
+}
+
+/* H. ALLINEAMENTI E STILI */
+
+.pd-10 {
+    padding: 10px 0;
 }
 
 .text-sx {
@@ -84,7 +88,7 @@ li {
     margin: 0 auto;
 }
 
-.col {
+.col-100 {
     width: 100%;
 }
 
@@ -215,6 +219,6 @@ hr {
     border-bottom: 1px solid #b4b4b3;
 }
 
-.s-14 {
+.fs-14 {
     font-size: 14px;
 }
